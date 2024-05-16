@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images\favicon.ico">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+
+    <title>Welcome to my Portfolio</title>
+
+</head>
+
+<body>
+
+    <nav class="sidebar close">
+
+        <header>
+            <div class="logo-text">
+                <span class="logo">
+                    <img id="logo" src="Images/PD Logo Black.png" alt="logo">
+                </span>
+
+                <div class="text header-text">
+                    <span class="name">Web developer</span>
+                    <span class="profession">Photographer</span>
+                </div>
+            </div>
+
+            <i class='bx bx-chevron-right toggle'></i>
+        </header>
+
+
+        <div class="menu-bar">
+            <div class="menu">
+                <ul class="menu-links">
+
+                    <li class="nav-links">
+                        <a href="index.html" class="top">
+                            <i class='bx bx-home-alt-2 icon'></i>
+                            <span class="text nav-text">Home</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-links">
+                        <a href="nature.html">
+                            <i class='bx bx-leaf icon'></i>
+                            <span class="text nav-text">Nature</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-links">
+                        <a href="aerial.html">
+                            <i class='bx bx-paper-plane icon'></i>
+                            <span class="text nav-text">Aerial</span>
+                        </a>
+                    </li>
+
+                    <li class="nav-links">
+                        <a href="others.html">
+                            <i class='bx bx-dots-horizontal icon'></i>
+                            <span class="text nav-text">Others</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="bottom-content">
+
+                <li class="nav-links">
+                    <a href="gear.html" class="bottom">
+                        <i class='bx bx-briefcase icon'></i>
+                        <span class="text nav-text">Gear</span>
+                    </a>
+                </li>
+
+                <li class="nav-links">
+                    <a href="contacts.html" class="bottom">
+                        <i class='bx bx-envelope icon'></i>
+                        <span class="text nav-text">Contacts</span>
+                    </a>
+                </li>
+
+                <li class="mode">
+                    <div class="moon-sun">
+                        <i class='bx bx-moon icon moon'></i>
+                        <i class='bx bx-sun icon sun'></i>
+                    </div>
+                    <span class="mode-text text">Dark</span>
+
+                    <div class="toggle-switch">
+                        <span class="switch"></span>
+                    </div>
+                </li>
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section class="home">
+
+        <div class="starting_animation">
+            <div class="text-image">
+                <div class="text-1">
+                    <h1>&#128507; Hello world, i'm <span>Paolo </span>&#128507;</h1>
+                    <video autoplay muted loop pointer-events: none;>
+                        <source src="Videos\Hero video.mp4" type="video/mp4">
+                        Your browser does not support playing this mp4 video.
+                    </video>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+
+            <div class="content">
+
+                <div class="grid-text1">
+                    <p><span class="presentation">I'm a Front-end developer...</span><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                    </p>
+
+                    <div class="glass-code-html">
+                        <div class="code-content">
+                            <p class="line-1">
+                                <span class="c-a">&lt;button</span> <span class="c-b">onclick</span><span
+                                    class="c-c">=</span><span class="c-d">"</span><span
+                                    class="c-e">showMessage</span></span><span class="c-g">&lpar;&rpar;</span><span
+                                    class="c-d">"</span><span class="c-a">&gt;</span> <span class="c-c">Click Me!</span>
+                                <span class="c-a">&lt;/button&gt;</span>
+
+                            </p>
+                            <p class="line-2">
+                                <span class="c-a">&lt;div</span> <span class="c-b">id</span><span
+                                    class="c-c">=</span><span class="c-d">"output"</span>
+                                <span class="c-a">&gt;</span><span class="c-a">&lt;/div&gt;</span>
+                            </p>
+                            <br>
+                            <p class="line-3">
+                                <span class="c-a">&lt;script&gt;</span>
+                            </p>
+                            <br>
+                            <p class="line-4">
+                                &nbsp;<span class="c-a">function</span> <span class="c-e">showMessage</span></span><span
+                                    class="c-g">&lpar;&rpar;</span> <span class="c-g">&lcub;</span>
+                            </p>
+                            <p class="line-5">
+                                &nbsp;&nbsp;<span class="c-a">var</span> <span class="c-b">outputElem</span> <span
+                                    class="c-c">=</span>
+                                <span class="c-b">document</span><span class="c-c">.</span><span
+                                    class="c-e">getElementById</span><span class="c-f">&lpar;</span><span
+                                    class="c-d">"output"</span><span class="c-f">&rpar;</span><span class="c-c">;</span>
+                            </p>
+                            <p class="line-6">
+                                &nbsp;&nbsp;<span class="c-b">outputElem</span><span class="c-c">.</span><span
+                                    class="c-b">textContent</span> <span class="c-c">=</span>
+                                <span class="c-d">"Hello World"</span><span class="c-c">;</span>
+                            </p>
+                            <p class="line-7">
+                                <span class="c-g">&rcub;</span>
+                            </p>
+                            <br>
+                            <p class="line-8">
+                                <span class="c-a">&lt;/script&gt;</span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="glass-code-css">
+                        <div class="code-content">
+                            <p class="line-1">
+                                <span class="c-e">button</span> <span class="c-g">&lcub;</span>
+                            </p>
+                            <p class="line-2">
+                                &nbsp;&nbsp;<span class="c-b">padding</span><span class="c-c">:</span> <span
+                                    class="c-h">10px
+                                    20px</span><span class="c-c">;</span>
+                            </p>
+                            <p class="line-3">
+                                &nbsp;&nbsp;<span class="c-b">background-color</span><span class="c-c">:</span>
+                                <span class="c-d">#007bff</span><span class="c-c">;</span>
+                            </p>
+                            <p class="line-4">
+                                &nbsp;&nbsp;<span class="c-b">border</span><span class="c-c">:</span> <span
+                                    class="c-d">none</span><span class="c-c">;</span>
+                            </p>
+                            <p class="line-5">
+                                &nbsp;&nbsp;<span class="c-b">cursor</span><span class="c-c">:</span> <span
+                                    class="c-d">pointer</span><span class="c-c">;</span>
+                            </p>
+                            <p class="line-6">
+                                <span class="c-g">&rcub;</span>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div><span></span></div>
+                <div><span></span></div>
+
+                <div class="grid-text2">
+                    <p><span class="presentation">...and a Photographer!</span><br>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.
+                    </p>
+
+                    <div class="image">
+                        <img src="Images\_U1A0819.jpg" alt="">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="carousel-container">
+            <p class="glimpse">Take a glimpse<span>!</span></p>
+            <div class="carousel">
+                <div class="carousel-slide">
+                    <div class="image">
+                        <img src="Img-nature\P1100251.jpg" class="gallery-image" alt=".">
+                        <figcaption class="caption">Untitled</figcaption>
+                    </div>
+                    <div class="image">
+                        <img src="img-others\P1090830.jpg" class="gallery-image" alt=".">
+                        <figcaption class="caption">Untitled</figcaption>
+                    </div>
+                    <div class="image">
+                        <img src="img-others\P1090903.jpg" class="gallery-image" alt=".">
+                        <figcaption class="caption">Untitled</figcaption>
+                    </div>
+                </div>
+
+                <div class="carousel-slide">
+                    <div class="image">
+                        <img src="Img-nature\P1100251.jpg" class="gallery-image" alt=".">
+                        <figcaption class="caption">Untitled</figcaption>
+                    </div>
+                    <div class="image">
+                        <img src="img-others\P1090830.jpg" class="gallery-image" alt=".">
+                        <figcaption class="caption">Untitled</figcaption>
+                    </div>
+                    <div class="image">
+                        <img src="img-others\P1090903.jpg" class="gallery-image" alt=".">
+                        <figcaption class="caption">Untitled</figcaption>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="footer">
+            <footer class="copyright"> &copy; copyright 2024 Danese Paolo. All rights reserved.</footer>
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
